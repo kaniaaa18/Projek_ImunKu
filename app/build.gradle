@@ -94,4 +94,8 @@ dependencies {
 
     // Google Maps
     implementation("com.google.android.gms:play-services-maps:19.2.0")
+
+    //Grafik
+    implementation ('com.github.PhilJay:MPAndroidChart:3.1.0')
+
 }

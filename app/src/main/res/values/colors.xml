@@ -5,9 +5,9 @@
     <color name="nav_icon_color">#2D6151</color>
     <color name="green1">#77bba2</color>
     <color name="green2">#3c7962</color>
-    <color name="purple_200">#BB86FC</color>
-    <color name="purple_500">#6200EE</color>
-    <color name="purple_700">#3700B3</color>
+    <color name="purple_200">#B2CD9C</color>
+    <color name="purple_500">#B2CD9C</color>
+    <color name="purple_700">#B2CD9C</color>
     <color name="teal_200">#03DAC5</color>
     <color name="teal_700">#018786</color>
 </resources>
