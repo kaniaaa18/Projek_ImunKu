@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="3dp"
+    android:backgroundTint="#EFBC9B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/delete"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="top"
+            android:contentDescription="Delete" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvRecordTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jadwal Imunisasi"
+                android:textColor="#8B4513"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/outfit_semibold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="4dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nama"
+                    android:textColor="#8B4513"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/outfit_regular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="#8B4513"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/outfit_regular"/>
+                <TextView
+                    android:id="@+id/tvNamaAnak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Anak"
+                    android:textColor="#8B4513"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/outfit_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="4dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Imunisasi"
+                    android:textColor="#8B4513"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/outfit_regular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="#8B4513"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/outfit_regular"/>
+                <TextView
+                    android:id="@+id/tvJenisImunisasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Imunisasi"
+                    android:textColor="#8B4513"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/outfit_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tgl Imunisasi"
+                    android:textColor="#8B4513"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/outfit_regular"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=":"
+                    android:textColor="#8B4513"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/outfit_regular"/>
+                <TextView
+                    android:id="@+id/tvTanggalImunisasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Imunisasi"
+                    android:textColor="#8B4513"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/outfit_regular"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

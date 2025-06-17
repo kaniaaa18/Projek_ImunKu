@@ -10,5 +10,14 @@
     <color name="purple_700">#B2CD9C</color>
     <color name="teal_200">#03DAC5</color>
     <color name="teal_700">#018786</color>
+
+    <color name="page_background">#FCFCFC</color>
+    <color name="text_title_green">#4A6A3F</color>
+    <color name="text_label_dark">#333333</color>
+    <color name="button_simpan_red">#D98880</color>
+    <color name="input_border_gray">#E0E0E0</color>
+
+    <color name="orange_card">#EFBC9B</color>
+    <color name="blue_card">#9EC6F3</color>
 </resources>
 
