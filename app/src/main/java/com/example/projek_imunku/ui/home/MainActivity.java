@@ -17,6 +17,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.projek_imunku.R;
+
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_EMAIL = "extra_email";
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.container), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         buttonContainer = findViewById(R.id.button_container);
 
         btnToDashboard.setOnClickListener(v -> {
-            loadFragment(new DashboardFragment());
+            loadFragment(new HomeFragment());
         });
 
         btnToProfile.setOnClickListener(v -> {

@@ -13,13 +13,15 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.projek_imunku.R;
+
 public class HomeFragment extends Fragment {
 
     public static final String JENIS_IMUNISASI = "jenis_imunisasi";
     public static final String MANFAAT_IMUNISASI = "manfaat_imunisasi";
     public static final String MITOS_FAKTA = "mitos_fakta";
 
-    public Home Fragment() {
+    public HomeFragment() {
         // Required empty public constructor
     }
 

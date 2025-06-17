@@ -6,6 +6,33 @@
     android:layout_height="match_parent"
     android:paddingTop="?attr/actionBarSize">
 
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_to_dashboard"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Ke Dashboard" />
+
+            <Button
+                android:id="@+id/btn_to_profile"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Ke Profil" />
+        </LinearLayout>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
         android:layout_width="0dp"
