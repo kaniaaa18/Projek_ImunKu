@@ -18,6 +18,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.projek_imunku.R;
+import com.example.projek_imunku.ui.profile.ProfileFragment;
 
 public class MainActivity extends AppCompatActivity {
 

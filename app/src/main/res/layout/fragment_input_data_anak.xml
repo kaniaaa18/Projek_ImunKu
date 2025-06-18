@@ -40,6 +40,7 @@
             android:id="@+id/etNamaLengkap"
             android:layout_width="match_parent"
             android:layout_height="48dp"
+            android:hint="Nama"
             android:layout_marginBottom="20dp"
             android:background="@drawable/bg_input_field"
             android:inputType="textPersonName|textCapWords"
@@ -93,6 +94,7 @@
                     android:id="@+id/etUmur"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
+                    android:hint="Umur"
                     android:background="@drawable/bg_input_field"
                     android:inputType="number"
                     android:paddingHorizontal="16dp" />
@@ -127,6 +129,7 @@
                         android:background="@android:color/transparent"
                         android:clickable="false"
                         android:focusable="false"
+                        android:hint="Tanggal"
                         android:paddingHorizontal="16dp" />
 
                     <ImageView
@@ -138,7 +141,8 @@
                         android:layout_marginEnd="16dp"
                         android:src="@drawable/calendar"
                         app:tint="@color/text_label_dark"
-                        android:contentDescription="Pilih Tanggal" />
+                        android:contentDescription="Pilih Tanggal"
+                        />
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
@@ -171,6 +175,7 @@
                     android:id="@+id/etBeratBadan"
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
+                    android:hint="Berat"
                     android:background="@drawable/bg_input_field"
                     android:inputType="numberDecimal"
                     android:paddingHorizontal="16dp" />
@@ -198,6 +203,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:background="@drawable/bg_input_field"
+                    android:hint="Tinggi"
                     android:inputType="numberDecimal"
                     android:paddingHorizontal="16dp"
                     android:fontFamily="@font/outfit_semibold"/>

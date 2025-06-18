@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+import androidx.fragment.app.Fragment;
 
 import com.example.projek_imunku.R;
 
@@ -27,7 +28,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
 
-public class JadwalImunisasiFragment extends AppCompatActivity {
+public class JadwalImunisasiFragment extends Fragment {
 
     // Declare UI elements
     private Button btnTambah, btnEdit, btnSimpan;
