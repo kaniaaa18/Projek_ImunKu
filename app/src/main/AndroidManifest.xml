@@ -17,7 +17,7 @@
         android:theme="@style/Theme.Projek_ImunKu"
         tools:targetApi="31">
         <activity
-            android:name=".ui.PanduanActivity"
+            android:name=".ui.home.PanduanActivity"
             android:exported="false" />
 
         <meta-data
